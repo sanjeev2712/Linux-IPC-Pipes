@@ -22,7 +22,7 @@ Write the C Program using Linux Process API - pipe(), fifo()
 Testing the C Program for the desired output. 
 
 # PROGRAM:
-
+```
 #include<stdio.h>
 #include<stdlib.h>
 #include<sys/types.h>
@@ -78,7 +78,7 @@ else
 n=read(fd,buff,2000);
 write(wfd,buff,n);
 }
-
+```
 ## C Program that illustrate communication between two process using unnamed pipes using Linux API system calls
 
 
@@ -88,7 +88,7 @@ write(wfd,buff,n);
 
 
 # PROGRAM:
-
+```
 #include <stdio.h>
 #include <stdlib.h>
 #include <unistd.h>
@@ -161,7 +161,7 @@ void client() {
 }
 ## C Program that illustrate communication between two process using named pipes using Linux 
 API system calls
-
+```
 ## OUTPUT
 <img width="450" height="113" alt="Screenshot 2026-02-26 113359" src="https://github.com/user-attachments/assets/9e9a7b71-7399-451e-a5bb-24d7f05a4d3a" />
 
